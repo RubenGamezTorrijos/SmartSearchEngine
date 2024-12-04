@@ -38,3 +38,19 @@ cd SmartSearchEngine
 ]
 ```
 
+## Estructura de software
+```
+search_engine/
+├── app/
+│   ├── __init__.py         # Inicialización del paquete
+│   ├── api.py              # API con FastAPI
+│   ├── config.py           # Configuración global
+│   ├── data_loader.py      # Carga de datos desde JSON
+│   ├── embedding.py        # Generación e indexación de embeddings
+│   ├── search.py           # Lógica de búsqueda
+│   └── index.py            # Gestión de índices en Elasticsearch
+├── models/
+│   ├── __init__.py         # Inicialización del paquete
+│   └── bert_model.py       # Modelo de embeddings
+└── main.py                 # Punto de entrada del proyecto
+```
