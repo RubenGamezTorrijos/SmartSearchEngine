@@ -1,4 +1,4 @@
-# Buscador Semántico en Python
+# Buscador Inteligente Semántico en Python
 
 Este proyecto es un buscador semántico modular y profesional diseñado para comprender consultas en lenguaje natural y proporcionar resultados relevantes. Utiliza tecnologías modernas como **FastAPI**, **transformers** para embeddings semánticos y **Elasticsearch** como motor de búsqueda.
 
